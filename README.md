@@ -4,6 +4,10 @@ This repository contains a small public version of my computer engineering bache
 
 I implemented schema retrieval, foreign-key expansion, reranking, grounded SQL prompting, validation, and a reporting interface. This edition keeps the reusable components and synthetic examples while leaving company schemas, connection details, and development records outside the repository.
 
+![ERP Text-to-SQL development interface](docs/images/development-interface.png)
+
+*Development interface; the public demo uses a simplified synthetic UI.*
+
 ```text
 Question → BGE-M3 dense retrieval + MiniLM hybrid/FK retrieval
          → candidate union → BGE reranking → selected schema

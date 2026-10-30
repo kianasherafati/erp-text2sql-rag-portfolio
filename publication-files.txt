@@ -1,6 +1,7 @@
 .gitignore
 README.md
 docs/COMPONENTS.md
+docs/images/development-interface.png
 examples/schema.json
 publication-files.txt
 requirements-models.txt
