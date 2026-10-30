@@ -1,0 +1,2 @@
+# Optional SQL Server adapter; install a Microsoft ODBC driver separately.
+pyodbc==5.3.0

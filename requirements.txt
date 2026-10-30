@@ -1,0 +1,3 @@
+# Lightweight synthetic demo and static SQL validation.
+streamlit==1.64.0
+sqlglot==30.18.0

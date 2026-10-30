@@ -1,0 +1,33 @@
+# Credentials and private settings: never publish local .env variants.
+.env
+.env.*
+*.env
+secrets.toml
+*credentials*.json
+*token*.json
+*.pem
+*.key
+# Local runtimes, models, generated indexes and data.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+models/
+private/
+runtime/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.index
+*.pkl
+*.npy
+*.npz
+*.zip
+*.bak
+*.mdf
+*.ldf
+*.bacpac
+*.log

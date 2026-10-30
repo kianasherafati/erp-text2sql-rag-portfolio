@@ -1,0 +1,18 @@
+{
+  "database": "synthetic_demo",
+  "tables": [
+    {"schema": "demo", "name": "Customer", "columns": [
+      {"name": "CustomerID", "data_type": "int"},
+      {"name": "Name", "data_type": "nvarchar"}
+    ]},
+    {"schema": "demo", "name": "SalesOrder", "columns": [
+      {"name": "OrderID", "data_type": "int"},
+      {"name": "CustomerID", "data_type": "int"},
+      {"name": "TotalAmount", "data_type": "decimal"}
+    ], "foreign_keys": [
+      {"columns": ["CustomerID"], "references": {
+        "schema": "demo", "table": "Customer", "columns": ["CustomerID"]
+      }}
+    ]}
+  ]
+}
